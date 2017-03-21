@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sdv_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    fresco:actualImageScaleType="none"
+    fresco:backgroundImage="@android:color/transparent"
+    fresco:failureImage="@drawable/ic_image_no_exist"
+    fresco:failureImageScaleType="centerInside"
+    fresco:placeholderImageScaleType="centerInside"
+    fresco:progressBarAutoRotateInterval="1000"
+    fresco:progressBarImage="@drawable/ic_image_no_exist"
+    fresco:viewAspectRatio="1" />
